@@ -161,8 +161,16 @@
       "question_number": 5,
       "test_number": 1,
       "question_text": "Match the following truth tables to the correct logic gates:",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "b, e, a, c, d",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "b, e, a, c, d",
       "images": [
         "images/Q005-A1.gif",
         "images/Q005-A2.gif",
@@ -170,8 +178,15 @@
         "images/Q005-A4.gif",
         "images/Q005-A5.gif"
       ],
-      "answer_text": "",
-      "question_type": "matching"
+      "answer_text": "b, e, a, c, d",
+      "question_type": "fill_in_blank",
+      "matching_answer": [
+        "b",
+        "e",
+        "a",
+        "c",
+        "d"
+      ]
     },
     {
       "question_number": 6,
@@ -206,21 +221,43 @@
       "question_number": 7,
       "test_number": 1,
       "question_text": "A series circuit has 11 amps flowing through a resistance of 874 ohms. What is the induced voltage (V) across that resistance? (Round to the nearest whole number).",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "9614 V",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "9614 V",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "9614 V",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 8,
       "test_number": 1,
       "question_text": "Match the component with the unit of measurement.",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "1-Ohms, 2-Farads, 3-Henries, 4-Volts",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "1, 2, 3, 4",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "1-Ohms, 2-Farads, 3-Henries, 4-Volts",
+      "question_type": "fill_in_blank",
+      "matching_answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
     },
     {
       "question_number": 9,
@@ -290,21 +327,37 @@
       "question_number": 11,
       "test_number": 1,
       "question_text": "What would be the current flow (in mA to 2.d.p) through R1 assuming all resistors are in parallel given the following values: E = 10 volts, R1 = 2900 ohms, R2 = 40 ohms, R3 = 4820 ohms.",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "3.45 mA",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "3.45 mA",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "3.45 mA",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 12,
       "test_number": 1,
       "question_text": "A 436.00 ohm resistor is subjected to a voltage of 31.50 Volts. What would be the power consumed by that resistor (in Watts to 2 d.p.)?",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "2.28 W",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "2.28 W",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "2.28 W",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 13,
@@ -359,20 +412,28 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 15,
       "test_number": 1,
       "question_text": "How many Amps would be generated if 45.20 coulombs passed a point in a conductor in 25.00 seconds? (Answer in Amps to 2 d.p.)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "1.81 A",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "1.81 A",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "1.81 A",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 16,
@@ -501,11 +562,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q019.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -897,11 +958,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q031.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -1064,11 +1125,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "f",
       "images": [
         "images/Q036.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "f",
       "question_type": "multiple_choice"
     },
     {
@@ -1452,9 +1513,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -1498,9 +1559,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -1556,9 +1617,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -1573,9 +1634,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -1590,9 +1651,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -1607,30 +1668,46 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 58,
       "test_number": 1,
       "question_text": "A __________ is a hard copy that can show programs of any length and are used to analyze the complete program. (Choose: PRINTOUT, PROGRAMMER, OUTPUT, SCANNER)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "PRINTOUT",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "PRINTOUT",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "PRINTOUT",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 59,
       "test_number": 1,
       "question_text": "RAM is a type of solid state memory contained in an _____________ circuit chip. (Choose: CLOSED, OPEN, INTEGRATED, SHORT)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "INTEGRATED",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "INTEGRATED",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "INTEGRATED",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 60,
@@ -1656,20 +1733,28 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 61,
       "test_number": 1,
       "question_text": "A high-speed counter module rated for a count rate of 0 to 50 kHz, means the module would be able to count _________ pulses per second. (Choose: 50, 500, 5000, 50000, 500000)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "50000",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "50000",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "50000",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 62,
@@ -1721,11 +1806,19 @@
       "question_number": 64,
       "test_number": 1,
       "question_text": "A _______ bit is used to detect errors that may occur while data is being transmitted. (Choose: PARITY, BINARY, ERROR, FAULT, ALPHA)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "PARITY",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "PARITY",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "PARITY",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 65,
@@ -1760,31 +1853,55 @@
       "question_number": 66,
       "test_number": 1,
       "question_text": "The Gray code is considered to be an error-minimizing code because only one ____ changes at a time. (Choose: BIT, BYTE, WORD, RUNG, INSTRUCTION)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "BIT",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "BIT",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "BIT",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 67,
       "test_number": 1,
       "question_text": "The binary-coded decimal (BCD) system uses _____ binary bits to represent each numeral in the decimal system. (Choose: ONE, TWO, FOUR, EIGHT, SIXTEEN)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "FOUR",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "FOUR",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "FOUR",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 68,
       "test_number": 1,
       "question_text": "The only allowable digits in a binary system are ____ and _____. (Choose: YES/NO, UP/DOWN, ZERO/ONE, TRUE/FALSE, DUMB/DUMBER)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "ZERO and ONE",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "ZERO and ONE",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "ZERO and ONE",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 69,
@@ -1817,9 +1934,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -1880,9 +1997,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -2003,9 +2120,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -2131,9 +2248,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -2169,11 +2286,19 @@
       "question_number": 86,
       "test_number": 1,
       "question_text": "ControlLogic processor modules use ______ to identify the memory location in the controller where data is stored. (Choose: WORDS, STRINGS, TAGS, NUMBERS)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "TAGS",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "TAGS",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "TAGS",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 87,
@@ -2187,20 +2312,28 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 88,
       "test_number": 1,
       "question_text": "The address I:013/17 would be found in the _______ image table file. (Choose: OUTPUT, INPUT, TIMER, STATUS, COUNTER)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "INPUT",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "INPUT",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "INPUT",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 89,
@@ -2214,9 +2347,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -2415,11 +2548,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q094.png"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -2463,11 +2596,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q096.gif"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -2528,9 +2661,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -2641,9 +2774,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -2726,9 +2859,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -2808,11 +2941,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q111.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -2913,11 +3046,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q114.gif"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -2944,11 +3077,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q115.gif"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -3018,11 +3151,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "f",
       "images": [
         "images/Q117.png"
       ],
-      "answer_text": "",
+      "answer_text": "f",
       "question_type": "multiple_choice"
     },
     {
@@ -3173,11 +3306,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q122.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -3352,11 +3485,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "f",
       "images": [
         "images/Q127.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "f",
       "question_type": "multiple_choice"
     },
     {
@@ -3383,11 +3516,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q128.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -3507,11 +3640,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q132.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -3700,9 +3833,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "B",
       "images": [],
-      "answer_text": "",
+      "answer_text": "B",
       "question_type": "multiple_choice"
     },
     {
@@ -3879,9 +4012,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -3951,11 +4084,19 @@
       "question_number": 150,
       "test_number": 95,
       "question_text": "Current input analog modules are normally designed to measure current in the 4-to-20 _____ range. (Choose: Milliamp, Volt, Ohm, Watt, Amp)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "Milliamp",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "Milliamp",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "Milliamp",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 151,
@@ -3990,21 +4131,37 @@
       "question_number": 152,
       "test_number": 95,
       "question_text": "A _______ -output module is normally used to operate a 7-segment display. (Choose: DIGITAL, BCD, ASCII, COUNTER, ANALOG)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "BCD",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "BCD",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "BCD",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 153,
       "test_number": 95,
       "question_text": "Volatile programmable logic controller memory is made nonvolatile by using a backup _________ or __________ for those times when AC power is lost. (Choose: BATTERY/CAPACITOR, HARDDRIVE/FLOPPY, UPS/USPS, ANALOG/DIGITAL)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "BATTERY/CAPACITOR",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "BATTERY/CAPACITOR",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "BATTERY/CAPACITOR",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 154,
@@ -4085,11 +4242,19 @@
       "question_number": 157,
       "test_number": 95,
       "question_text": "The basic function of a comparator is to compare the ________ magnitude of two quantities. (Choose: RELATIVE, ABSOLUTE, TOTAL, NEGATIVE, ZERO)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "RELATIVE",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "RELATIVE",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "RELATIVE",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 158,
@@ -4103,20 +4268,28 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 159,
       "test_number": 95,
       "question_text": "A PLC thumb-wheel switch is an example of a PLC device that makes use of the __________ number system. (Choose: BINARY, ASCII, GRAY, BCD, HEXADECIMAL)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "BCD",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "BCD",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "BCD",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 160,
@@ -4240,21 +4413,37 @@
       "question_number": 164,
       "test_number": 95,
       "question_text": "The Gray code is considered to be an error-minimizing code because only one ____ changes at a time. (Choose: BIT, BYTE, WORD, RUNG, INSTRUCTION)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "BIT",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "BIT",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "BIT",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 165,
       "test_number": 95,
       "question_text": "The binary-coded decimal (BCD) system uses _____ binary bits to represent each numeral in the decimal system. (Choose: ONE, TWO, FOUR, EIGHT, SIXTEEN)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "FOUR",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "FOUR",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "FOUR",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 166,
@@ -4393,9 +4582,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -4456,9 +4645,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -4485,20 +4674,28 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 176,
       "test_number": 95,
       "question_text": "When you are dealing with numbers that require a decimal point the _______ - point file element is used. (Choose: INTEGER, FLOATING, WORD, DATA, NEEDLE)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "FLOATING",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "FLOATING",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "FLOATING",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 177,
@@ -4562,11 +4759,19 @@
       "question_number": 179,
       "test_number": 95,
       "question_text": "With functional chart programming instructions, the processor does not ______ those parts of the program that are not active. (Choose: SCAN, UNDERSTAND, APPRECIATE, ACTIVATE, DELETE)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "SCAN",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "SCAN",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "SCAN",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 180,
@@ -4580,9 +4785,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -4776,11 +4981,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q186.png"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -4801,11 +5006,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "c",
       "images": [
         "images/Q187.png"
       ],
-      "answer_text": "",
+      "answer_text": "c",
       "question_type": "multiple_choice"
     },
     {
@@ -4992,9 +5197,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -5168,9 +5373,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -5293,11 +5498,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q205.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -5324,11 +5529,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q206.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -5627,11 +5832,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q215.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -5689,11 +5894,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q217.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -5856,11 +6061,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q222.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -5918,11 +6123,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q224.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -6054,11 +6259,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q228.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -6079,11 +6284,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "c",
       "images": [
         "images/Q229.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "c",
       "question_type": "multiple_choice"
     },
     {
@@ -6243,9 +6448,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
@@ -6289,9 +6494,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "B",
       "images": [],
-      "answer_text": "",
+      "answer_text": "B",
       "question_type": "multiple_choice"
     },
     {
@@ -6427,9 +6632,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -6502,9 +6707,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
@@ -6557,11 +6762,19 @@
       "question_number": 249,
       "test_number": 189,
       "question_text": "A __________ is a hard copy that can show programs of any length and are used to analyze the complete program. (Choose: PRINTOUT, PROGRAMMER, OUTPUT, SCANNER)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "PRINTOUT",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "PRINTOUT",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "PRINTOUT",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 250,
@@ -6596,11 +6809,19 @@
       "question_number": 251,
       "test_number": 189,
       "question_text": "The only allowable digits in a binary system are ____ and _____ . (Choose: YES/NO, UP/DOWN, ZERO/ONE, TRUE/FALSE, DUMB/DUMBER)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "ZERO and ONE",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "ZERO and ONE",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "ZERO and ONE",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 252,
@@ -6672,9 +6893,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -6707,9 +6928,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "e",
       "images": [],
-      "answer_text": "",
+      "answer_text": "e",
       "question_type": "multiple_choice"
     },
     {
@@ -6768,11 +6989,19 @@
       "question_number": 258,
       "test_number": 189,
       "question_text": "A PLC thumb-wheel switch is an example of a PLC device that makes use of the __________ number system. (Choose: BINARY, ASCII, GRAY, BCD, HEXADECIMAL)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "BCD",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "BCD",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "BCD",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 259,
@@ -6798,9 +7027,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -6923,9 +7152,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
@@ -6952,9 +7181,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
@@ -6998,11 +7227,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [
         "images/Q267.png"
       ],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
@@ -7017,9 +7246,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -7046,9 +7275,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
@@ -7092,9 +7321,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
+      "answer_text": "False",
       "question_type": "multiple_choice"
     },
     {
@@ -7179,40 +7408,64 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 275,
       "test_number": 189,
       "question_text": "When you are dealing with numbers that require a decimal point the _______ - point file element is used. (Choose: INTEGER, FLOATING, WORD, DATA, NEEDLE)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "FLOATING",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "FLOATING",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "FLOATING",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 276,
       "test_number": 189,
       "question_text": "ControlLogic processor modules use ______ to identify the memory location in the controller where data is stored. (Choose: WORDS, STRINGS, TAGS, NUMBERS)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "TAGS",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "TAGS",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "TAGS",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 277,
       "test_number": 189,
       "question_text": "With functional chart programming instructions, the processor does not ______ those parts of the program that are not active. (Choose: SCAN, UNDERSTAND, APPRECIATE, ACTIVATE, DELETE)",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "SCAN",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "SCAN",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "SCAN",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 278,
@@ -7387,11 +7640,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q283.gif"
       ],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -7744,11 +7997,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "a",
       "images": [
         "images/Q298.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "Normally closed Flow switch",
       "question_type": "multiple_choice"
     },
     {
@@ -7787,11 +8040,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [
         "images/Q299.png"
       ],
-      "answer_text": "",
+      "answer_text": "Both PL2 and PL1 turn off.",
       "question_type": "multiple_choice"
     },
     {
@@ -7849,11 +8102,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "c",
       "images": [
         "images/Q301.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "Normally open momentary contact pushbutton",
       "question_type": "multiple_choice"
     },
     {
@@ -7973,11 +8226,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "a",
       "images": [
         "images/Q305.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "Normally open pressure switch",
       "question_type": "multiple_choice"
     },
     {
@@ -8035,11 +8288,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "a",
       "images": [
         "images/Q307.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "Solenoid coil",
       "question_type": "multiple_choice"
     },
     {
@@ -8097,11 +8350,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "c",
       "images": [
         "images/Q309.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "a pneumatic pilot actuator",
       "question_type": "multiple_choice"
     },
     {
@@ -8159,11 +8412,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "c",
       "images": [
         "images/Q311.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "a 5/2 Dual Air Piloted DCV with Spring Return",
       "question_type": "multiple_choice"
     },
     {
@@ -8345,11 +8598,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "c",
       "images": [
         "images/Q317.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "a double acting solenoid",
       "question_type": "multiple_choice"
     },
     {
@@ -8450,11 +8703,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "a",
       "images": [
         "images/Q320.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "a lever actuator",
       "question_type": "multiple_choice"
     },
     {
@@ -8562,11 +8815,11 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "b",
       "images": [
         "images/Q324.bmp"
       ],
-      "answer_text": "",
+      "answer_text": "No",
       "question_type": "multiple_choice"
     },
     {
@@ -8689,9 +8942,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "A",
       "images": [],
-      "answer_text": "",
+      "answer_text": "Keyboard",
       "question_type": "multiple_choice"
     },
     {
@@ -8764,9 +9017,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "B",
       "images": [],
-      "answer_text": "",
+      "answer_text": "Current rating of field devices",
       "question_type": "multiple_choice"
     },
     {
@@ -8781,9 +9034,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
+      "answer_text": "D",
       "question_type": "multiple_choice"
     },
     {
@@ -8839,20 +9092,28 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "C",
       "images": [],
-      "answer_text": "",
+      "answer_text": "the sensors are located",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 335,
       "test_number": 283,
       "question_text": "A high-speed counter module rated for a count rate of 0 to 50 kHz, means the module would be able to count _________ pulses per second. ( Choose: 50, 500, 5000, 50000, 500000 )",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "D",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "D",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 336,
@@ -8943,11 +9204,19 @@
       "question_number": 340,
       "test_number": 283,
       "question_text": "A _______ -output module is normally used to operate a 7-segment display. ( Chose: DIGITAL, BCD, ASCII, COUNTER, ANALOG )",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "C",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "C",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "C",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 341,
@@ -8980,11 +9249,19 @@
       "question_number": 343,
       "test_number": 283,
       "question_text": "Volatile programmable logic controller memory is made nonvolatile by using a backup _________ or __________ for those times when AC power is lost. (Choose: BATTERY/CAPACITOR , HARDDRIVE/FLOPPY, UPS/USPS, ANALOG/DIGITAL )",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "B",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "B",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "B",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 344,
@@ -9007,11 +9284,19 @@
       "question_number": 345,
       "test_number": 283,
       "question_text": "A _______ bit is used to detect errors that may occur while data is being transmitted. (Chose: PARITY, BINARY, ERROR, FAULT, ALPHA )",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "False",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "False",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "False",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 346,
@@ -9070,9 +9355,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "d",
       "images": [],
-      "answer_text": "",
+      "answer_text": "d",
       "question_type": "multiple_choice"
     },
     {
@@ -9114,11 +9399,19 @@
       "question_number": 350,
       "test_number": 283,
       "question_text": "A PLC thumb-wheel switch is an example of a PLC device that makes use of the __________ number system. (Chose: BINARY, ASCII, GRAY, BCD, HEXADECIMAL )",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "a",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "a",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "a",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 351,
@@ -9296,9 +9589,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "C",
       "images": [],
-      "answer_text": "",
+      "answer_text": "a parallel circuit",
       "question_type": "multiple_choice"
     },
     {
@@ -9330,9 +9623,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "A",
       "images": [],
-      "answer_text": "",
+      "answer_text": "True",
       "question_type": "multiple_choice"
     },
     {
@@ -9412,9 +9705,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "A",
       "images": [],
-      "answer_text": "",
+      "answer_text": "True",
       "question_type": "multiple_choice"
     },
     {
@@ -9429,9 +9722,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "B",
       "images": [],
-      "answer_text": "",
+      "answer_text": "B",
       "question_type": "multiple_choice"
     },
     {
@@ -9504,9 +9797,9 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "B",
       "images": [],
-      "answer_text": "",
+      "answer_text": "B",
       "question_type": "multiple_choice"
     },
     {
@@ -9550,20 +9843,28 @@
           "images": []
         }
       ],
-      "correct_answer": null,
+      "correct_answer": "A",
       "images": [],
-      "answer_text": "",
+      "answer_text": "integer",
       "question_type": "multiple_choice"
     },
     {
       "question_number": 370,
       "test_number": 283,
       "question_text": "The address I:013/17 would be found in the _______ image table file. (Choose: OUTPUT, INPUT, TIMER, STATUS, COUNTER )",
-      "options": [],
-      "correct_answer": null,
+      "options": [
+        {
+          "letter": null,
+          "text": "D",
+          "is_correct": true,
+          "images": [],
+          "is_image_answer": false
+        }
+      ],
+      "correct_answer": "D",
       "images": [],
-      "answer_text": "",
-      "question_type": "multiple_choice"
+      "answer_text": "D",
+      "question_type": "fill_in_blank"
     },
     {
       "question_number": 371,
