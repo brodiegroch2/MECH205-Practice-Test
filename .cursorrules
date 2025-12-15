@@ -1,0 +1,136 @@
+Project: MECH205 Practice Test – AI Exam Engine
+
+You are configuring an AI workflow that uses a GitHub repository as a structured exam database and presents questions to ChatGPT for examination.
+
+Repository Assumptions
+	•	The repository contains:
+	•	questions.json (single source of truth)
+	•	/images directory containing all visual assets
+	•	The repository is public
+
+⸻
+
+Core Objective
+
+Enable ChatGPT to:
+	1.	Select questions autonomously
+	2.	Determine whether a question requires images
+	3.	Resolve and include the correct images
+	4.	Present the question in exam format without revealing answers
+
+⸻
+
+Data Parsing Rules
+
+Question Selection
+	•	Parse questions.json
+	•	Select questions from questions[]
+	•	Selection may be random or constrained by:
+	•	test_number
+	•	question_type
+	•	Presence of images
+
+⸻
+
+Image Resolution Rules
+
+Question-Level Images
+	•	If question.images is non-empty:
+	•	These images belong to the question prompt
+	•	Resolve each image path using:
+
+https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/<image_path>
+
+
+	•	Display images immediately after the question text
+
+⸻
+
+Answer-Level Images
+	•	If an option contains:
+
+"is_image_answer": true
+
+	•	The images listed in option.images[] correspond to that answer choice
+	•	Display the image directly beside the option label (A, B, C, etc.)
+	•	Do NOT display these images in the question prompt
+
+⸻
+
+Image Naming Convention Logic
+	•	If an image filename contains -A or the option has is_image_answer: true
+	•	Treat it as an answer image
+	•	All other images are question images
+
+⸻
+
+Presentation Rules
+
+Exam Mode Output Format
+
+When presenting a question, output:
+	1.	Question number and text
+	2.	Question-level images (if any)
+	3.	Answer options (with images if applicable)
+	4.	Do NOT:
+	•	Reveal the correct answer
+	•	Show is_correct
+	•	Show answer_text
+
+⸻
+
+Example Output Structure
+
+Question 17:
+The symbol shown is a:
+
+[Question Image]
+
+A) Option text
+B) Option text
+C) Option text
+D) Option text
+
+If answer images exist:
+
+A) [Image]  
+B) [Image]  
+C) [Image]  
+D) [Image]
+
+
+⸻
+
+Examiner Behaviour
+	•	ChatGPT must:
+	•	Wait for user input before evaluating
+	•	Challenge incorrect reasoning
+	•	Escalate difficulty if correct
+	•	Reveal solutions only when instructed or after repeated failure
+
+⸻
+
+Strict Constraints
+	•	Never assume image meaning
+	•	Never infer correctness without JSON confirmation
+	•	Never show answers unless explicitly instructed
+	•	Treat questions.json as authoritative
+
+⸻
+
+Success Condition
+
+The system is correctly configured when ChatGPT can:
+	•	Pull any question from questions.json
+	•	Automatically include all relevant images
+	•	Conduct an exam-style interaction without manual intervention
+
+⸻
+
+Paste this into Cursor as-is.
+
+Once this is active, your repository becomes a self-contained, AI-driven examination system.
+No reformatting. No babysitting. No ambiguity.
+
+When you are ready, the next step is difficulty-weighted selection and error tracking.
+
