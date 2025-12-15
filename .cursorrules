@@ -5,8 +5,9 @@ You are configuring an AI workflow that uses a GitHub repository as a structured
 Repository Assumptions
 	•	The repository contains:
 	•	questions.json (single source of truth)
-	•	/images directory containing all visual assets
-	•	The repository is public
+	•	images/ directory containing all visual assets
+	•	Repository: brodiegroch2/MECH205-Practice-Test (public)
+	•	Image paths in JSON use format: "images/Q###.ext" or "images/Q###-A#.ext"
 
 ⸻
 
@@ -37,30 +38,28 @@ Image Resolution Rules
 Question-Level Images
 	•	If question.images is non-empty:
 	•	These images belong to the question prompt
-	•	Resolve each image path using:
-
-https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/<image_path>
-
-
+	•	Image paths in JSON are like: "images/Q017.png"
+	•	Resolve to GitHub raw URL by extracting filename and using:
+	•	https://raw.githubusercontent.com/brodiegroch2/MECH205-Practice-Test/main/images/Q017.png
 	•	Display images immediately after the question text
 
 ⸻
 
 Answer-Level Images
-	•	If an option contains:
-
-"is_image_answer": true
-
+	•	If an option contains "is_image_answer": true
 	•	The images listed in option.images[] correspond to that answer choice
+	•	Image paths in JSON are like: "images/Q003-A1.jpg"
+	•	Resolve to GitHub raw URL: https://raw.githubusercontent.com/brodiegroch2/MECH205-Practice-Test/main/images/Q003-A1.jpg
 	•	Display the image directly beside the option label (A, B, C, etc.)
 	•	Do NOT display these images in the question prompt
 
 ⸻
 
 Image Naming Convention Logic
-	•	If an image filename contains -A or the option has is_image_answer: true
-	•	Treat it as an answer image
-	•	All other images are question images
+	•	Images in question.images[]: Always question-level images (even if filename contains -A, these are answer key images for matching questions)
+	•	Images in option.images[] with is_image_answer: true: Answer option images (the image IS the answer choice)
+	•	Images in option.images[] without is_image_answer: Additional images for that option
+	•	Image filenames with -A# pattern: Typically answer-related (A1=option 'a', A2=option 'b', etc.)
 
 ⸻
 
