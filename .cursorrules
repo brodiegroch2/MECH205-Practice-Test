@@ -41,6 +41,7 @@ Question-Level Images
 	•	Image paths in JSON are like: "images/Q017.png"
 	•	Resolve to GitHub raw URL by extracting filename and using:
 	•	https://raw.githubusercontent.com/brodiegroch2/MECH205-Practice-Test/main/images/Q017.png
+	•	Note: For viewing in GitHub, use: https://github.com/brodiegroch2/MECH205-Practice-Test/blob/main/images/Q017.png
 	•	Display images immediately after the question text
 
 ⸻
@@ -49,7 +50,8 @@ Answer-Level Images
 	•	If an option contains "is_image_answer": true
 	•	The images listed in option.images[] correspond to that answer choice
 	•	Image paths in JSON are like: "images/Q003-A1.jpg"
-	•	Resolve to GitHub raw URL: https://raw.githubusercontent.com/brodiegroch2/MECH205-Practice-Test/main/images/Q003-A1.jpg
+	•	Resolve to GitHub raw URL for display: https://raw.githubusercontent.com/brodiegroch2/MECH205-Practice-Test/main/images/Q003-A1.jpg
+	•	GitHub blob URL: https://github.com/brodiegroch2/MECH205-Practice-Test/blob/main/images/Q003-A1.jpg
 	•	Display the image directly beside the option label (A, B, C, etc.)
 	•	Do NOT display these images in the question prompt
 
